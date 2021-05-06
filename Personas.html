@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./res/img/emblem-office.ico">
+    <title>Area_Kalc</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link href="css/Pasted.css" rel="stylesheet">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+</head>
+  <body>
+
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Area_Kalc</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Goals <span class="sr-only">(current)</span></a></li>
+        <li class="active"><a href="Personas.html">Personas</a></li>
+        <li><a href="Sketches.html">Sketches</a></li>
+        <li><a href="Critique.html">Critique</a></li>
+        <li><a href="Technologies.html">Technologies</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+    <ol class="breadcrumb">
+        <li>
+            <i class="ace-icon fa fa-home home-icon"></i>Home
+            <i class="fa fa-fw fa-angle-double-right"></i>
+            <i class="fa fa-fw fa-users active"></i> Users
+        </li>
+    </ol>
+
+    <div class="row" style="padding: 20px;">
+        <div class="col-md-3">
+            <div class="list-group">
+                <div class="list-group-item"><span class="fa fa-fw fa-user" aria-hidden="true"></span>&nbsp;&nbsp;Admin User</div>
+                <div class="list-group-item"><span class="fa fa-fw fa-users" aria-hidden="true"></span>&nbsp;&nbsp;Client User</div>
+            </div>
+        </div>
+        <div class="col-md-9">
+
+            <div class="nav-tabs-custom blue">
+                <ul class="nav nav-tabs">
+                    <li class="active" style="color: #478FCA!important;"><a href="#admin" data-toggle="tab">Admin User</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="active tab-pane" id="admin">
+                        This user has the collective administrative powers associted to him/herself.
+                        <ul>Will be able to see users using the app and their activities.</ul>
+                        <ul>To revoke users privileges.</ul>
+                        <ul>Receive complaints about the app.</ul>
+                        <ul>Tell the new users about the capabilities associated with the app itself.</ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="nav-tabs-custom blue" style="margin-top: 50px;">
+                <ul class="nav nav-tabs">
+                    <li class="active" style="color: #478FCA!important;"><a href="#Client" data-toggle="tab">Client User</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="active tab-pane" id="Client">
+                        This user is the targeted audience, they are to be in need of a utility app that is to aid in making calculations on the ground in realtime, without even getting to leave the comfort of their houses.
+                        <ul>Will calculate distances between markers in realtime.</ul>
+                        <ul>Will calculate area os any drawn polygon and show the resluts in realtime.</ul>
+
+                        <ul>To store any combination of markers.</ul>
+                        <ul>To retrieve the stored data in the cloud.</ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+ 
+        </body>
+	
+	<footer class="nav navbar-inverse navbar-fixed-bottom foota" style="text-align: center; color: #ffffff; padding: 10px">
+      <h4><p>Area_Kalc &copy;2020</p></h4>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script >
+      var typed = new Typed(".andikia", {
+        strings: ["Hello welcome to Area_Kalc a Lite weight app for calculating distances and copmuting areas of polygons a user draws", 
+            "Hello welcome to Area_Kalc,Area calc is an app designed to aid in estimating distances between two pointd on a map. The points can also be as amany as the user wants them to be",
+            "Hello welcome to Area_Kalc.  Area calc can also be used to draw polygons when more than two markers are used. The polygon is dynamically recomputed and hence no need to refresh the Activity."],
+        typeSpeed: 30,
+        backSpeed: 20,
+        cursorChar: '_',
+        smartBackspace: true, // this is a default
+        loop: true
+      });
+    </script>
+
+</html>
